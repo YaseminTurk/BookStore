@@ -36,7 +36,7 @@ namespace BookStore.Controllers
                 GengeId= 2, //Science Fiction
                 PageCount=540,
                 PublishDate= new DateTime(2001,12,21)
-            },
+            }
         };
 
         [HttpGet]
@@ -98,6 +98,7 @@ namespace BookStore.Controllers
                 return BadRequest();
             }
             BookList.Remove(book);
+
             return Ok();
         }
         
