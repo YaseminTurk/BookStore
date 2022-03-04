@@ -18,7 +18,7 @@ namespace BookStore.DbOperations
                 context.Books.AddRange(
                     new Book()
                     {
-                        Id = 1,
+                        //Id = 1,
                         Title = "Lean Startup",
                         GengeId = 1, //Personal Growth
                         PageCount = 222,
@@ -26,7 +26,7 @@ namespace BookStore.DbOperations
                     },
                     new Book()
                     {
-                        Id = 2,
+                        //Id = 2,
                         Title = "Herland",
                         GengeId = 2, //Science Fiction
                         PageCount = 250,
@@ -34,7 +34,7 @@ namespace BookStore.DbOperations
                     },
                     new Book()
                     {
-                        Id = 3,
+                        //Id = 3,
                         Title = "Dune",
                         GengeId = 2, //Science Fiction
                         PageCount = 540,
