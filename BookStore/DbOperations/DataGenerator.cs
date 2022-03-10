@@ -17,6 +17,27 @@ namespace BookStore.DbOperations
                     return;
                 }
 
+                context.Authors.AddRange(
+                    new Author
+                    {
+                        Name = "Yasemin",
+                        Surname = "Türk",
+                        Birthday = new DateTime(1996, 7, 21)
+                    },
+                    new Author
+                    {
+                        Name = "Ebru",
+                        Surname = "Korkmaz",
+                        Birthday = new DateTime(2001, 4, 15)
+                    },
+                    new Author
+                    {
+                        Name = "Ahmet",
+                        Surname = "Erkan",
+                        Birthday = new DateTime(1998, 3, 18)
+                    }
+                );
+
                 context.Genres.AddRange(
                     new Genre()
                     {
